@@ -1,6 +1,8 @@
 import React from 'react';
 import './Body.css';
-import Carousel from 'react-bootstrap/Carousel'
+import Card from 'react-bootstrap/Card'
+import Button from 'react-bootstrap/Button'
+import CardColumns from 'react-bootstrap/CardColumns'
 
 function Body() {
     return (
@@ -10,7 +12,27 @@ function Body() {
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum iaculis eu non diam phasellus vestibulum lorem sed. Rutrum tellus pellentesque eu tincidunt tortor aliquam nulla facilisi. Rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque</p>
             <br></br>
             <h2>MY WORK</h2>
-            
+            <center>
+            <Card style={{ width: '18rem' }} class="card">
+                <Card.Body>
+                <Card.Title>Password Generator</Card.Title>
+                <Button variant="primary" href="https://emilyfern121.github.io/javascript-password-generator/">View</Button>
+            </Card.Body>
+            </Card>
+            <Card style={{ width: '18rem' }}>
+                <Card.Body>
+                <Card.Title>Round Table</Card.Title>
+                <Button variant="primary" href="https://roundtable-online-book-club.herokuapp.com/">View</Button>
+            </Card.Body>
+            </Card>
+            <Card style={{ width: '18rem' }}>
+                <Card.Body>
+                <Card.Title>Laugh Generator</Card.Title>
+                <Button variant="primary" href="https://emilyfern121.github.io/Laugh-Generator/">View</Button>
+            </Card.Body>
+            </Card>
+            </center>
+
 
         </section>
         

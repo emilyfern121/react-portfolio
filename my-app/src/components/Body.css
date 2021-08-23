@@ -36,3 +36,7 @@ h2 {
 .container2 .box {
     text-align: center;
 }
+
+.card {
+    display: inline-block;
+}
